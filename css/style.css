@@ -515,3 +515,187 @@
       margin-top: 3%;
 }
 
+@media screen and (min-width: 320px) and (max-width:450px) {
+      .sidebar-navigation ul {
+            margin-left: -30%;
+            color: white;
+        }a{
+            text-decoration: none;
+            color: white;
+        }
+        .sidebar-navigation {
+            display: inline-block;
+            min-height: 120vh;
+            width: 10%;
+            background-color: #313443;
+            float: left;
+        }               
+      .cont1 h1{
+            display: none;
+      }.cont1 img{
+            width: 100%;
+            margin-top: 35%;
+      }.cont1{
+            padding:  5%;
+      }#ejer1, #ejer2, #ejer3, #ejer4, #ejer5, #ejer6{
+            width: 70%;
+            height: 2em;
+            font-size: 1em;
+            color: transparent;
+      }#pestana{
+            grid-column: 1/61;
+            
+            background-color: rgba(78, 74, 74, 0.815);
+            border: 5px solid rgb(255, 255, 255);          
+      }.modal1, .modal2, .modal3,.modal4, .modal5{
+            width: 100%;
+            height: 90%;
+      }.tit{
+            font-size: 1.3em;
+            text-align: center;
+            margin-top: 2%;
+      }.texto button{
+            height: 3em;
+            align-items: center;
+            justify-content: center;
+      }.texto label{
+            font-size: 1.2em;
+      }.ret{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }.ret .tit{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-size: 1.8em;
+            text-align: center;
+      }#grados, #inf{
+            margin: 10%;
+            width: 60% !important;
+      }#lado1, #lado2, #lado3{
+            margin-top: 2%;
+            width: 70% !important;
+      }#nombre, #apellido, #actividad{
+            margin-top: 3%;
+            width: 70% !important;
+      }#respuesta{
+            margin-top: 5%;
+      }.opc{
+            width: 100%;
+            font-size: 0.9em;
+            height: 2.5em;
+      }#d{
+            font-size: 1.5em;
+      }.tit5{
+            margin-top: 5%;
+            font-size: 1.5em;
+            margin-bottom: 5%;
+      }#radio, #radio1, #base1, #altura1, #lad1, #lad2, 
+      #lad3, #bas, #alt, #bas2, #alt2, #basi, #basi2{
+            margin-top: 3%;
+            margin-bottom: 10%;
+            width: 60% !important;
+      }#opciones2, #opciones, #opciones3, #opciones4{
+            margin-top: 2%;
+      }.modal5{
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+      }
+}
+@media screen and (min-width: 451px) and (max-width: 500px) {
+      .sidebar-navigation ul {
+            margin-left: -30%;
+            color: white;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .sidebar-navigation {
+            display: inline-block;
+            min-height: 120vh;
+            width: 10%;
+            background-color: #313443;
+            float: left;
+        } 
+      .cont1 img{
+            margin-top: 30%;
+            width: 100%;
+      }.cont1{
+            padding:  5%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+      }.cont1 h1{
+            font-size: 1.5em;
+            color: black;
+      }          
+      #ejer1, #ejer2, #ejer3, #ejer4, #ejer5,#ejer6{
+            width: 35%;
+            height: 2.5em;
+            font-size: 1.2em;
+            color: transparent;
+      }#pestana{
+            grid-column: 1/61;
+            
+            background-color: rgba(78, 74, 74, 0.815);
+            border: 5px solid rgb(255, 255, 255);          
+      }.modal1, .modal2, .modal3,.modal4, .modal5{
+            width: 80%;
+            height: 90%;
+      }.tit{
+            font-size: 1.3em;
+            text-align: center;
+            margin-top: 2%;
+      }.texto button{
+            height: 3.2em;
+            align-items: center;
+            justify-content: center;
+      }.texto label{
+            font-size: 1.2em;
+      }.ret{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+      }.ret .tit{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            font-size: 1.8em;
+            text-align: center;
+      }#grados, #inf{
+            margin: 8%;
+            width: 60% !important;
+      }#lado1, #lado2, #lado3{
+            margin-top: 3%;
+            margin-bottom: 5%;
+            width: 70% !important;
+      }#nombre, #apellido, #actividad{
+            margin-top: 3%;
+            margin-bottom: 5%;
+            width: 70% !important;
+      }#respuesta{
+            margin-top: 8%;
+      }.opc{
+            width: 100%;
+            font-size: 0.9em;
+            height: 2.5em;
+      }#d{
+            font-size: 1.5em;
+      }.tit5{
+            margin-top: 5%;
+            font-size: 1.5em;
+            margin-bottom: 5%;
+      }#radio, #radio1, #base1, #altura1, #lad1, #lad2, 
+      #lad3, #bas, #alt, #bas2, #alt2, #basi, #basi2{
+            margin-top: 1%;
+            margin-bottom: 9%;
+            width: 40% !important;
+      }#opciones2, #opciones, #opciones3, #opciones4{
+            margin-top: 2%;
+      }#modal5{
+            height: 100%;
+            width: 100%;
+            border-radius: 0;
+      }
+}
